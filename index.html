@@ -1,52 +1,111 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css" >
-	<style>
-	@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Germania+One|Quicksand|Ubuntu');
-	</style>
-	
-	<title>Hello, world!</title>
+  <title>Alan Bots</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="logo_icon.png"/>
+
+  <!-- Custom styles for this template -->
+  <link href="css/navbar-top-fixed.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/sticky-footer.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
+
 <body>
-	<div class="container ">
-		<div class="row ">
-			<div class="col-sm-12">&nbsp;</div>
-			<div class="col-sm-8"><a href="#"><img src="https://picsum.photos/2000/3000/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-			<div class="col-sm-4"><img src="https://picsum.photos/2000/3000/" class="object-fit_fill"></div>
-			<div class="col-sm-12">&nbsp;</div>
 
-			<div class="col-sm-12"><img src="https://picsum.photos/2300/3030/" class="object-fit_fill"></div>
-			<div class="col-sm-12">&nbsp;</div>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Alan Bots</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="btn btn-dark nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Ciencia</a>
+            <a class="dropdown-item" href="#">Cine</a>
+            <a class="dropdown-item" href="#">Cultura</a>
+            <a class="dropdown-item" href="#">Internet</a>
+            <a class="dropdown-item" href="#">Reseñas</a>
+            <a class="dropdown-item" href="#">Tecnologia</a>
+            <a class="dropdown-item" href="#">VideoJuegos</a>
+          </div>
+        </li><!--
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>-->
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
 
-			<div class="col-sm-6"><img src="https://picsum.photos/2003/3300/" class="object-fit_fill"></div>
-			<div class="col-sm-6"><img src="https://picsum.photos/3200/3003/" class="object-fit_fill"></div>
-			<div class="col-sm-12">&nbsp;</div>
-		
-			<div class="col-sm-3"><img src="https://picsum.photos/200/300/" class="object-fit_fill"></div>
-			<div class="col-sm-6"><img src="https://picsum.photos/200/300/" class="object-fit_fill"></div>
-			<div class="col-sm-3"><img src="https://picsum.photos/200/300/" class="object-fit_fill"></div>
-			<div class="col-sm-12">&nbsp;</div>
-		
-			<div class="col-sm-4"><img src="https://picsum.photos/200/300/" class="object-fit_fill"></div>
-			<div class="col-sm-8"><img src="https://picsum.photos/200/300/" class="object-fit_fill"></div>
-			<div class="col-sm-12">&nbsp;</div>
-		
-			<div class="col-sm-8"><img src="https://picsum.photos/200/300/" class="object-fit_fill"></div>
-			<div class="col-sm-4"><img src="https://picsum.photos/200/300/" class="object-fit_fill"></div>
-		</div>
-	</div>
+  <main role="main" class="container">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-sm-8"><a href="#"><img src="https://picsum.photos/2000/3000/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-success btn-sm">Ciencia</a></div></div>
+        <div class="col-sm-4"><a href="#"><img src="https://picsum.photos/2000/3009/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-primary btn-sm">Cine</a></div></div>
+        <div class="col-sm-12">&nbsp;</div>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
+        <div class="col-sm-12"><a href="#"><img src="https://picsum.photos/2303/3030/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-warning btn-sm">Cultura</a></div></div>
+        <div class="col-sm-12">&nbsp;</div>
+
+        <div class="col-sm-6"><a href="#"><img src="https://picsum.photos/2033/3300/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-secondary btn-sm">Internet</a></div></div>
+        <div class="col-sm-6"><a href="#"><img src="https://picsum.photos/3200/3003/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-success btn-sm">Ciencia</a></div></div>
+        <div class="col-sm-12">&nbsp;</div>
+
+        <div class="col-sm-3"><a href="#"><img src="https://picsum.photos/1010/3010/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-info btn-sm">Reseñas</a></div></div>
+        <div class="col-sm-6"><a href="#"><img src="https://picsum.photos/2100/3100/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-danger btn-sm">Tecnologia</a></div></div>
+        <div class="col-sm-3"><a href="#"><img src="https://picsum.photos/2010/3010/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-light btn-sm">Videojuegos</a></div></div>
+        <div class="col-sm-12">&nbsp;</div>
+
+        <div class="col-sm-4"><a href="#"><img src="https://picsum.photos/2010/3010/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-success btn-sm">Ciencia</a></div></div>
+        <div class="col-sm-8"><a href="#"><img src="https://picsum.photos/2011/3010/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-success btn-sm">Ciencia</a></div></div>
+        <div class="col-sm-12">&nbsp;</div>
+
+        <div class="col-sm-8"><a href="#"><img src="https://picsum.photos/200/3040/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-success btn-sm">Ciencia</a></div></div>
+        <div class="col-sm-4"><a href="#"><img src="https://picsum.photos/2400/300/" class="object-fit_fill"></a><div class="bottom-left"><a href="#" class="btn btn-dark">Titulo Nota</a><br><a href="#" class="btn btn-success btn-sm">Ciencia</a></div></div>
+        <div class="col-sm-12">&nbsp;</div>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <a href="#" class="btn btn-dark"><i class="fab fa-facebook-f"></i></a> 
+          <a href="#" class="btn btn-dark"><i class="fab fa-instagram"></i></i></a> 
+          <a href="#" class="btn btn-dark"><i class="fab fa-twitter"></i></a> 
+
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 float-right small">© 2019 Alan AI. All Rights Reserved</div>
+      </div>
+      
+  </footer>
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    </html>
