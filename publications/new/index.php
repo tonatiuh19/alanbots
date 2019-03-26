@@ -38,40 +38,13 @@
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>-->
       </ul>
-      <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-      </form>
+      
     </div>
   </nav>
 
   <main role="main" class="container">
     <div class="container ">
-      <div class="row ">
-        <div class="col-sm-8"><a href="#"><img src="https://picsum.photos/2000/3000/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-4"><a href="#"><img src="https://picsum.photos/2000/3009/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-12">&nbsp;</div>
-
-        <div class="col-sm-12"><a href="#"><img src="https://picsum.photos/2303/3030/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-12">&nbsp;</div>
-
-        <div class="col-sm-6"><a href="#"><img src="https://picsum.photos/2033/3300/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-6"><a href="#"><img src="https://picsum.photos/3200/3003/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-12">&nbsp;</div>
-
-        <div class="col-sm-3"><a href="#"><img src="https://picsum.photos/1010/3010/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-6"><a href="#"><img src="https://picsum.photos/2100/3100/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-3"><a href="#"><img src="https://picsum.photos/2010/3010/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-12">&nbsp;</div>
-
-        <div class="col-sm-4"><a href="#"><img src="https://picsum.photos/2010/3010/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-8"><a href="#"><img src="https://picsum.photos/2011/3010/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-12">&nbsp;</div>
-
-        <div class="col-sm-8"><a href="#"><img src="https://picsum.photos/200/3040/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-4"><a href="#"><img src="https://picsum.photos/2400/300/" class="object-fit_fill"></a><div class="bottom-left bg-dark"><a href="#" class="btn btn-dark">Bottom Left</a></div></div>
-        <div class="col-sm-12">&nbsp;</div>
-      </div>
+      
     </div>
   </main>
   
